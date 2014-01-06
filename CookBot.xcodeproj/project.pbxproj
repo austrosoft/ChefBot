@@ -22,7 +22,7 @@
 		B48F267A1879F47200949E35 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B48F26781879F47200949E35 /* InfoPlist.strings */; };
 		B48F267C1879F47200949E35 /* CookBotTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B48F267B1879F47200949E35 /* CookBotTests.m */; };
 		B4AAB92C187A021C000D0E58 /* CBRoundButton.m in Sources */ = {isa = PBXBuildFile; fileRef = B4AAB92B187A021C000D0E58 /* CBRoundButton.m */; };
-		B4AAB93A187A31C7000D0E58 /* CBNetworkConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = B4AAB939187A31C7000D0E58 /* CBNetworkConnection.m */; };
+		B4AAB93A187A31C7000D0E58 /* CBNetworkConnectionDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B4AAB939187A31C7000D0E58 /* CBNetworkConnectionDelegate.m */; };
 		B4EBF4B71879FD0500E0F804 /* recipeSelectorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B4EBF4B61879FD0500E0F804 /* recipeSelectorViewController.m */; };
 /* End PBXBuildFile section */
 
@@ -57,8 +57,8 @@
 		B48F267B1879F47200949E35 /* CookBotTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CookBotTests.m; sourceTree = "<group>"; };
 		B4AAB92A187A021C000D0E58 /* CBRoundButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CBRoundButton.h; sourceTree = "<group>"; };
 		B4AAB92B187A021C000D0E58 /* CBRoundButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CBRoundButton.m; sourceTree = "<group>"; };
-		B4AAB938187A31C7000D0E58 /* CBNetworkConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CBNetworkConnection.h; sourceTree = "<group>"; };
-		B4AAB939187A31C7000D0E58 /* CBNetworkConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CBNetworkConnection.m; sourceTree = "<group>"; };
+		B4AAB938187A31C7000D0E58 /* CBNetworkConnectionDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CBNetworkConnectionDelegate.h; sourceTree = "<group>"; };
+		B4AAB939187A31C7000D0E58 /* CBNetworkConnectionDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CBNetworkConnectionDelegate.m; sourceTree = "<group>"; };
 		B4EBF4B51879FD0500E0F804 /* recipeSelectorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = recipeSelectorViewController.h; sourceTree = "<group>"; };
 		B4EBF4B61879FD0500E0F804 /* recipeSelectorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = recipeSelectorViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -182,8 +182,8 @@
 			children = (
 				B48F265C1879F47200949E35 /* austroAppDelegate.h */,
 				B48F265D1879F47200949E35 /* austroAppDelegate.m */,
-				B4AAB938187A31C7000D0E58 /* CBNetworkConnection.h */,
-				B4AAB939187A31C7000D0E58 /* CBNetworkConnection.m */,
+				B4AAB938187A31C7000D0E58 /* CBNetworkConnectionDelegate.h */,
+				B4AAB939187A31C7000D0E58 /* CBNetworkConnectionDelegate.m */,
 			);
 			name = Delegates;
 			sourceTree = "<group>";
@@ -300,7 +300,7 @@
 				B4EBF4B71879FD0500E0F804 /* recipeSelectorViewController.m in Sources */,
 				B48F265A1879F47200949E35 /* main.m in Sources */,
 				B4AAB92C187A021C000D0E58 /* CBRoundButton.m in Sources */,
-				B4AAB93A187A31C7000D0E58 /* CBNetworkConnection.m in Sources */,
+				B4AAB93A187A31C7000D0E58 /* CBNetworkConnectionDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
